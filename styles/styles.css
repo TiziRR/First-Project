@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*HEADER*/
+
+header {
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/187/450/327/space-stars-universe-galaxy-wallpaper-preview.jpg);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+header img {
+width: 500px;
+}
+
+
+/*MAIN*/
+
+main {
+    
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/187/450/327/space-stars-universe-galaxy-wallpaper-preview.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.item-grid {
+    width: 220px;
+    background-color: rgb(14, 61, 99);
+    box-shadow: 0 0 0 10px rgb(27, 26, 26), 0 0 50px rgba(3, 35, 71, 0.952), 0 0 100px rgb(114, 180, 192);
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+    color: rgb(240, 241, 245);
+    -webkit-text-stroke: 0.001px black;
+}
+
+.item-grid img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+/*FOOTER*/
+
+footer {
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/187/450/327/space-stars-universe-galaxy-wallpaper-preview.jpg);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+footer small {
+    color: #fff;
+    font-size: smaller;
+}
+
+/* RESPONSIVE DESIGN*/
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    header img {
+        width: 200px;
+    }
+
+    main {
+        padding: 20px;
+    }
+}
